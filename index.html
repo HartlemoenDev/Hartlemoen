@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <script src="Scripts/home.js"></script>
+    <title>Hartlemoen</title>
+</head>
+
+<body>
+
+    <div class="NavBar">
+        <a class="LogoCOn scroll-link" id="Logo" href="##About">
+            <img src="Images/HLogo.jpeg" />
+            <div class="LogoTitle">Hartlemoen</div>
+        </a>
+
+        <div class="SearchCon">
+            <input id="searchInput" type="text" placeholder="Search..." />
+            <button class="mdi mdi-magnify"></button>
+        </div>
+        <div class="ServiceCon">
+            <a class="scroll-link" href="##Stickers">Browse</a>
+            <a class="scroll-link" href="##Order">Order Now</a>
+            <a class="scroll-link" href="##About">About</a>
+
+        </div>
+
+        <div class="SocialsCon">
+            <a class="SocialIcon"
+                href="https://wa.me/27795160816?text=Hi there, I would like to order something please.">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                    <title>whatsapp</title>
+                    <path
+                        d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                </svg>
+            </a>
+            <a class="SocialIcon"
+                href="https://www.instagram.com/hartlemoen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                    <title>instagram</title>
+                    <path
+                        d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                </svg>
+            </a>
+            <a class="SocialIcon" href="https://www.facebook.com/profile.php?id=100063965793527" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                    <title>facebook</title>
+                    <path
+                        d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+                </svg>
+            </a>
+        </div>
+
+
+        <div class="MobileBurgerMenu mdi mdi-menu" onclick="MoveSidebar()">
+
+        </div>
+        <div class="MobileSidebar" id="Sidebar">
+            <div class="MobileBurgerMenuClose mdi mdi-close" onclick="CloseSidebar()">
+
+            </div>
+            <div class="MobileServiceCon">
+                <a class="scroll-link" href="##Stickers">Browse</a>
+                <a class="scroll-link" href="##Order">Order Now</a>
+                <a class="scroll-link" href="##About">About</a>
+
+            </div>
+            <div class="MobileSocials">
+                <a class="MobileSocialIcon"
+                    href="https://wa.me/27795160816?text=Hi there, I would like to order something please.">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                        <title>whatsapp</title>
+                        <path
+                            d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                    </svg>
+                </a>
+                <a class="MobileSocialIcon"
+                    href="https://www.instagram.com/hartlemoen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                        <title>instagram</title>
+                        <path
+                            d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                    </svg>
+                </a>
+                <a class="MobileSocialIcon" href="https://www.facebook.com/profile.php?id=100063965793527"
+                    target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                        <title>facebook</title>
+                        <path
+                            d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="WelcomeCon" id="#About">
+
+        <div class="WelcomeMessage">
+            <div class="WeclomeTitle">
+                Stickers & Stamps
+
+
+            </div>
+            <div class="WelcomeSubTitle">
+                ‘n Hart vir Mammas,
+
+            </div>
+            <div class="WelcomeSubTitle">
+
+                ‘n Hart vir Kinders
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="BrowseGallery">
+
+        <a class="GalleryItem scroll-link" href="##Stickers">
+
+            Stickers
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##Clothing">
+
+
+            Clothing
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##Combos">
+
+            Combos
+
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##AllIncl">
+
+
+            All Inclusive
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##Extra">
+
+            Extra
+
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##Charts">
+
+            Charts
+
+
+        </a>
+        <a class="GalleryItem scroll-link" href="##Business">
+
+            Business
+
+
+        </a>
+        <a class="GalleryItem scroll-link" href="##BusinessSelf">
+
+            Business Self-Inking
+
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##TeacherSelf">
+
+            Teachers Self-Inking
+
+
+        </a>
+
+        <a class="GalleryItem scroll-link" href="##TeacherNon">
+
+            Teachers Non-Self-Inking
+
+
+        </a>
+        <a class="GalleryItem scroll-link" href="##TeacherStickers">
+
+            Teachers Stickers
+
+
+        </a>
+    </div>
+
+
+    <div class="AboutUsSection">
+        <h1>
+            About Us
+        </h1>
+        <p>Our Head Office is based in Pretoria, where all products are
+            manufactured. We are exclusively an online business, which means we
+            need to courier your parcel. It costs R60 to a Pudo locker or R80
+            directly to your door.</p>
+
+        <p>
+            We take around 7-10 working days to complete your order. Some
+            teacher and business stamps can take up to 15 working days.
+        </p>
+
+        <p>
+            We are a small business, with a passion to produce excellent quality and
+            beautiful products for you and your little one. We appreciate your
+            support!
+        </p>
+
+
+    </div>
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#Stickers">
+        <div class="Shoptitle">
+            Stickers
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Mini-Me
+                </div>
+                <div class="PckgeContent">
+                    <div>25 stickers</div>
+
+                    <div>1 bag tag</div>
+                    <div class="Price">
+                        R65
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Mini-Me.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Mini-Me.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Mini-Me.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Bundle 1
+                </div>
+                <div class="PckgeContent">
+                    <div>75 stickers</div>
+
+                    <div>2 bag tags</div>
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Bundle 1.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Bundle 1.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/Bundle1.png" />
+                </div>
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Bundle 2
+                </div>
+                <div class="PckgeContent">
+                    <div>200 stickers</div>
+
+                    <div>3 bag tags</div>
+                    <div class="Price">
+                        R170
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Bundle 2.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Bundle 2.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/Bundle2.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Variety Bundle
+                </div>
+                <div class="PckgeContent">
+                    <div>75 stickers</div>
+                    <div>1 ice cream label</div>
+                    <div>2 shoe labels</div>
+                    <div>1 bag tag</div>
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Variety bundle.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Variety bundle.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/VarietyBundle.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Little Feet
+                </div>
+                <div class="PckgeContent">
+                    <div>65 stickers</div>
+
+                    <div>18 shoe labels</div>
+                    <div>1 bag tag</div>
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Little feet.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Little feet.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/LittleFeet.png" />
+                </div>
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Book Bundle
+                </div>
+                <div class="PckgeContent">
+                    <div>70 stickers</div>
+                    <div>9 book labels</div>
+
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Stickers&body=Hi there, I would like to order Stickers - Book bundle.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Book bundle.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/BookBundle.png" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#Clothing">
+        <div class="Shoptitle">
+            Clothing
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Stamp
+                </div>
+                <div class="PckgeContent">
+                    <div>1 clothing stamp</div>
+
+                    <div class="Price">
+                        R330
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Clothing&body=Hi there, I would like to order Clothing - Stamp.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Stamp.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Stamp.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Sew-ons
+                </div>
+                <div class="PckgeContent">
+                    <div>20 labels</div>
+                    <div>(2.5 x 4 cm R120)</div>
+                    <div>20 labels</div>
+                    <div>(4 x 4 cm R160)</div>
+
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Clothing&body=Hi there, I would like to order Clothing - Sew-ons.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Sew-ons.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Sew-ons.png" />
+                </div>
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Ironing
+                </div>
+                <div class="PckgeContent">
+                    <div>25 iron-ons (R120)</div>
+                    <div>42 iron-ons (R160)</div>
+                    <div>84 iron-ons (R200)</div>
+                    <div>125 iron-ons (R220)</div>
+
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Clothing&body=Hi there, I would like to order Clothing - Ironing.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Clothing - Ironing.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/Ironing.png" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+
+    <div class="StickersSection" id="#Combos">
+        <div class="Shoptitle">
+            Combos
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Stamp Combo
+                </div>
+                <div class="PckgeContent">
+                    <div>1 clothing stamp</div>
+                    <div>75 stickers</div>
+
+                    <div>2 bag tags</div>
+                    <div class="Price">
+                        R400
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Combos&body=Hi there, I would like to order Combos - Stamp Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Combos - Stamp Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/SingleStamp.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Label Combo
+                </div>
+                <div class="PckgeContent">
+                    <div>42 iron-ons</div>
+                    <div>75 stickers</div>
+
+                    <div>2 bag tags</div>
+                    <div class="Price">
+                        R250
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Combos&body=Hi there, I would like to order Combos - Label Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Combos - Label Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="CustomTwoImgs" style="display: flex; gap:10px; ">
+                    <div class="PckgeImage">
+                        <img src="Images/75 Stickers.png" />
+                    </div>
+                    <div class="PckgeImage">
+                        <img src="Images/BagTags3.png" />
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    All-in-one
+                </div>
+                <div class="PckgeContent">
+                    <div>1 clothing stamp</div>
+                    <div>42 iron-ons</div>
+                    <div>75 stickers</div>
+                    <div>2 bag tags</div>
+                    <div class="Price">
+                        R500
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Combos&body=Hi there, I would like to order Combos - All-in-one.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Combos - All-in-one.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/42IronOns.png" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#AllIncl">
+        <div class="Shoptitle">
+            All Inclusive
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Bibbidy Bobbidy Boo
+                </div>
+                <div class="PckgeContent">
+                    <div>1 clothing stamp</div>
+                    <div>42 iron-ons</div>
+                    <div>20 sew-ons (2.5 x 4 cm)</div>
+                    <div>75 stickers</div>
+                    <div>2 bag tags</div>
+                    <div class="Price">
+                        R600
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order All Inclusive&body=Hi there, I would like to order All Inclusive - Bibbidy Bobbidy Boo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order All Inclusive - Bibbidy Bobbidy Boo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="LargeBibGallery">
+
+                    <div class="PckgeImage">
+                        <img src="Images/42IronOns.png" />
+                    </div>
+                    <div class="PckgeImage">
+                        <img src="Images/SingleStamp.png" />
+                    </div>
+                    <div class="PckgeImage">
+                        <img src="Images/BagTags3.png" />
+                    </div>
+                    <div class="PckgeImage">
+                        <img src="Images/Sew-ons.png" />
+                    </div>
+                    <div class="PckgeImage">
+                        <img src="Images/75 Stickers.png" />
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+
+    <div class="StickersSection" id="#Extra">
+        <div class="Shoptitle">
+            Extra
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Bag Tags
+                </div>
+                <div class="PckgeContent">
+                    <div>R15 each</div>
+                    <div>Circle = 4 cm</div>
+                    <div>Short = 4 x 5 cm</div>
+                    <div>Long = 3.5 x 6 cm</div>
+                    <div class="Price">
+                        R15
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Extra&body=Hi there, I would like to order Extra - Bag Tags.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Extra - Bag Tags.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/BagTags3.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Ice Cream
+                </div>
+                <div class="PckgeContent">
+                    <div>Ice cream tub</div>
+                    <div>(22 x 16 8 cm)</div>
+                    <div>1 x Lid sticker = 20 x 14 cm</div>
+                    <div>2 x Short sticker = 12 x 6 cm</div>
+                    <div>2 x Long sticker = 18 x 6 cm</div>
+                    <div class="Price">
+                        R100
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Extra&body=Hi there, I would like to order Extra - Ice Cream.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Extra - Ice Cream.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/IceCreamTub.jpeg" />
+                </div>
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Safety Sticker
+                </div>
+                <div class="PckgeContent">
+                    <div>Clear vinyl sticker</div>
+                    <div>Shape and size according</div>
+                    <div>to your car</div>
+                    <div>Any color</div>
+                    <div>Clear/White background</div>
+                    <div class="Price">
+                        R80
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Extra&body=Hi there, I would like to order Extra - Safety Sticker.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Extra - Safety Sticker.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Saftey.png" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#Charts">
+        <div class="Shoptitle">
+            Charts
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Potty Chart
+                </div>
+                <div class="PckgeContent">
+                    <div>1 A4 Potty Training Chart</div>
+                    <div>117 Piepie Stickers</div>
+                    <div>117 Poopie Stickers</div>
+
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Charts&body=Hi there, I would like to order Charts - Potty Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Charts - Potty Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Potty.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Toothy Chart
+                </div>
+                <div class="PckgeContent">
+                    <div>1 A4 Teeth Brushing Chart</div>
+                    <div>234 Toothy Stickers</div>
+
+                    <div class="Price">
+                        R120
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Charts&body=Hi there, I would like to order Charts - Toothy Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Charts - Toothy Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/ToothyChart.png" />
+                </div>
+            </div>
+
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Reward Chart
+                </div>
+                <div class="PckgeContent">
+                    <div>1 A4 Personalized Chart</div>
+                    <div>8 chore slots</div>
+                    <div>100 reward stickers</div>
+                    <div>16 chores (personalized)</div>
+                    <div class="Price">
+                        R180
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Charts&body=Hi there, I would like to order Charts - Reward Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Charts - Reward Chart.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+
+                <div class="PckgeImage">
+                    <img src="Images/RewardChart.png" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#Business">
+        <div class="Shoptitle">
+            Business
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Thank You / Labels
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Business&body=Hi there, I would like to order Business - Thank you / Labels.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Business - Thank you / Labels.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/ThankyouLabel.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Business Cards
+                </div>
+                <div class="PckgeContent">
+                    <div>Takes 7-15 working days</div>
+                    <div>Please provide design in correct size 90x50 mm</div>
+                    <div>50 cards - R260</div>
+                    <div>100 cards - R290</div>
+                    <div>150 cards - R380</div>
+                    <div>250 cards - R480</div>
+                    <div>500 cards - R590</div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Business&body=Hi there, I would like to order Business - Business Cards.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Business - Business Cards.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/BusinessCard.png" />
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="StickersSection" id="#BusinessSelf">
+        <div class="Shoptitle">
+            Business Self-Inking
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Dater Stamps
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 25 mm <span class="price">(R405)</span></td>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R610)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>20 mm x 30 mm <span class="price">(R535)</span></td>
+                            <td><span class="heart">&hearts;</span>38 mm x 75 mm <span class="price">(R780)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>24 x 41<span class="price">(R570)</span></td>
+                            <td><span class="heart">&hearts;</span>40 mm x 64 mm <span class="price">(R735)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R510)</span></td>
+                            <td><span class="heart">&hearts;</span>42 mm x 42 mm <span class="price">(R655)</span></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R565)</span></td>
+                            <td><span class="heart">&hearts;</span>45 mm Round <span class="price">(R680)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R600)</span></td>
+                            <td><span class="heart">&hearts;</span>Mini dater 3.8 with text 25 mm x 5 mm <span
+                                    class="price">(R530)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>30 mm x 70 mm <span class="price">(R600)</span></td>
+                        </tr> -->
+                    </table>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Business Self-Inking&body=Hi there, I would like to order Business Self-Inking - Dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Business Self-Inking - Dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/BusinessDaterStamps.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Non-dater Stamps
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 26 mm <span class="price">(R290)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 65 mm <span class="price">(R490)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 45 mm <span class="price">(R380)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 70 mm <span class="price">(R505)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 70 mm <span class="price">(R400)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 85 mm <span class="price">(R515)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>12 mm x 12 mm <span class="price">(R305)</span></td>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R500)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>14 mm x 38 mm <span class="price">(R310)</span></td>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R405)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>15 mm x 75 mm <span class="price">(R450)</span></td>
+                            <td><span class="heart">&hearts;</span>33 mm x 56 mm <span class="price">(R545)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>18 mm x 47 mm <span class="price">(R365)</span></td>
+                            <td><span class="heart">&hearts;</span>33 mm x 56 mm <span class="price">(R545)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>20 mm x 20 mm <span class="price">(R365)</span></td>
+                            <td><span class="heart">&hearts;</span>42 mm x 42 mm <span class="price">(R510)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>22 mm x 58 mm <span class="price">(R405)</span></td>
+                            <td><span class="heart">&hearts;</span>40 mm x 60 mm <span class="price">(R585)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>24 mm x 41 mm <span class="price">(R425)</span></td>
+                            <td><span class="heart">&hearts;</span>52 mm x 52 mm <span class="price">(R685)</span></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="heart">&hearts;</span>25 mm x 25 mm <span class="price">(R410)</span></td>
+                            <td><span class="heart">&hearts;</span>50 mm x 50 mm <span class="price">(R630)</span></td>
+                        </tr> -->
+                    </table>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Business Self-Inking&body=Hi there, I would like to order Business Self-Inking - Non-dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Business Self-Inking - Non-dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+
+                <div class="PckgeImage">
+                    <img src="Images/BusinessNondaterStamp.png" />
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+
+
+
+    <div class="StickersSection" id="#TeacherSelf">
+        <div class="Shoptitle">
+            Teachers Self-Inking
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Dater Stamps
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 25 mm <span class="price">(R405)</span></td>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R610)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>20 mm x 30 mm <span class="price">(R535)</span></td>
+                            <td><span class="heart">&hearts;</span>38 mm x 75 mm <span class="price">(R780)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>24 x 41<span class="price">(R570)</span></td>
+                            <td><span class="heart">&hearts;</span>40 mm x 64 mm <span class="price">(R735)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R510)</span></td>
+                            <td><span class="heart">&hearts;</span>42 mm x 42 mm <span class="price">(R655)</span></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R565)</span></td>
+                            <td><span class="heart">&hearts;</span>45 mm Round <span class="price">(R680)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R600)</span></td>
+                            <td><span class="heart">&hearts;</span>Mini dater 3.8 with text 25 mm x 5 mm <span
+                                    class="price">(R530)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>30 mm x 70 mm <span class="price">(R600)</span></td>
+                        </tr> -->
+                    </table>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Self-Inking&body=Hi there, I would like to order Teachers Self-Inking - Dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Self-Inking - Dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/TeacherDaterStamps.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Non-dater Stamps
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 26 mm <span class="price">(R290)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 65 mm <span class="price">(R490)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 45 mm <span class="price">(R380)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 70 mm <span class="price">(R505)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>10 mm x 70 mm <span class="price">(R400)</span></td>
+                            <td><span class="heart">&hearts;</span>25 mm x 85 mm <span class="price">(R515)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>12 mm x 12 mm <span class="price">(R305)</span></td>
+                            <td><span class="heart">&hearts;</span>30 mm x 50 mm <span class="price">(R500)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>14 mm x 38 mm <span class="price">(R310)</span></td>
+                            <td><span class="heart">&hearts;</span>32 mm x 32 mm <span class="price">(R405)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>15 mm x 75 mm <span class="price">(R450)</span></td>
+                            <td><span class="heart">&hearts;</span>33 mm x 56 mm <span class="price">(R545)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>18 mm x 47 mm <span class="price">(R365)</span></td>
+                            <td><span class="heart">&hearts;</span>33 mm x 56 mm <span class="price">(R545)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>20 mm x 20 mm <span class="price">(R365)</span></td>
+                            <td><span class="heart">&hearts;</span>42 mm x 42 mm <span class="price">(R510)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>22 mm x 58 mm <span class="price">(R405)</span></td>
+                            <td><span class="heart">&hearts;</span>40 mm x 60 mm <span class="price">(R585)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>24 mm x 41 mm <span class="price">(R425)</span></td>
+                            <td><span class="heart">&hearts;</span>52 mm x 52 mm <span class="price">(R685)</span></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="heart">&hearts;</span>25 mm x 25 mm <span class="price">(R410)</span></td>
+                            <td><span class="heart">&hearts;</span>50 mm x 50 mm <span class="price">(R630)</span></td>
+                        </tr> -->
+                    </table>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Self-Inking&body=Hi there, I would like to order Teachers Self-Inking - Non-dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Self-Inking - Non-dater Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/TeacherNonDaterStamps.png" />
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+
+
+    <div class="StickersSection" id="#TeacherNon">
+        <div class="Shoptitle">
+            Teachers Non-Self-Inking
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Mathematics
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Fraction stamps = 32 mm x 32 mm <span
+                                    class="price">(R405)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Clock stamps = 32 mm x 32 mm <span
+                                    class="price">(R405)</span>; 42 mm x 42 mm <span class="price">(R510)</span>; 52 mm
+                                x 52 mm <span class="price">(R685)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Number lines 0-10 = 15 mm x 75 mm <span
+                                    class="price">(R450)</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Non-Self-Inking&body=Hi there, I would like to order Teachers Non-Self-Inking - Mathematics.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Non-Self-Inking - Mathematics.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/Math.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Wooden / Plastic
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>20 mm x 20 mm <span class="price">(R180)</span></td>
+                            <td><span class="heart">&hearts;</span>80 mm x 90 mm <span class="price">(R495)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>25 mm x 30 mm <span class="price">(R200)</span></td>
+                            <td><span class="heart">&hearts;</span>90 mm x 100 mm <span class="price">(R560)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>30 mm x 40 mm <span class="price">(R220)</span></td>
+                            <td><span class="heart">&hearts;</span>95 mm x 100 mm <span class="price">(R585)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>40 mm x 40 mm <span class="price">(R255)</span></td>
+                            <td><span class="heart">&hearts;</span>100 mm x 110 mm <span class="price">(R650)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>60 mm x 60 mm <span class="price">(R320)</span></td>
+                            <td><span class="heart">&hearts;</span>115 mm x 120 mm <span class="price">(R780)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>70 mm x 70 mm <span class="price">(R380)</span></td>
+                            <td><span class="heart">&hearts;</span>130 mm x 140 mm <span class="price">(R970)</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Non-Self-Inking&body=Hi there, I would like to order Teachers Non-Self-Inking - Wooden / Plastic.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Non-Self-Inking - Wooden / Plastic.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/WoodenPlastic.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Cat Stamps
+                </div>
+                <div class="PckgeContent">
+                    <table class="price-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Each part of the cat is 8.5 mm, total size is 25.5
+                                mm<br>[Wooden block - requires ink pad] <span class="price">(R245)</span></td>
+                            <td><span class="heart">&hearts;</span>Each part of the cat is 8.5 mm, total size is 25.5
+                                mm<br>[Self-inking] <span class="price">(R345)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Each part of the cat is 17 mm, total size is 51
+                                mm<br>[Wooden block - requires ink pad] <span class="price">(R285)</span></td>
+                            <td><span class="heart">&hearts;</span>Each part of the cat is 17 mm, total size is 51
+                                mm<br>[Self-inking] <span class="price">(R425)</span></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Non-Self-Inking&body=Hi there, I would like to order Teachers Non-Self-Inking - Cat Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Non-Self-Inking - Cat Stamps.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+                <div class="PckgeImage">
+                    <img src="Images/Cat.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Ink Pad (R120)
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Non-Self-Inking&body=Hi there, I would like to order Teachers Non-Self-Inking - Ink Pad.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Non-Self-Inking - Ink Pad.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+
+                <div class="PckgeImage">
+                    <img src="Images/InkPad.png" />
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+
+
+    <div class="StickersSection" id="#TeacherStickers">
+        <div class="Shoptitle">
+            Teachers Stickers
+        </div>
+
+        <div class="ShopCon">
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Stickers
+                </div>
+                <div class="PckgeContent">
+                    <div>Option 1</div>
+                    <div>88 stickers (2.5 cm)</div>
+                    <div>Option 2</div>
+                    <div>117 stickers (2 cm)</div>
+                    <div class="Price">
+                        R80
+                    </div>
+                </div>
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Sticker&body=Hi there, I would like to order Teachers Stickers - Stickers.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Stickers - Stickers.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+
+                <div class="PckgeImage">
+                    <img src="Images/TeacherSticker.png" />
+                </div>
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Themes
+                </div>
+                <div class="PckgeContent">
+                    <table class="themes-list">
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Bee</td>
+                            <td><span class="heart">&hearts;</span>Minions</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Boho</td>
+                            <td><span class="heart">&hearts;</span>Monkeys</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Bunny</td>
+                            <td><span class="heart">&hearts;</span>Owls</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Cat</td>
+                            <td><span class="heart">&hearts;</span>Rainbows</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Elephant</td>
+                            <td><span class="heart">&hearts;</span>Succulents</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Flowers</td>
+                            <td><span class="heart">&hearts;</span>Sunflower</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Giraffe</td>
+                            <td><span class="heart">&hearts;</span>Unicorn</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Hippo</td>
+                            <td><span class="heart">&hearts;</span>Unisex</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Lion</td>
+                            <td><span class="heart">&hearts;</span>Wildlife</td>
+                        </tr>
+                        <tr>
+                            <td><span class="heart">&hearts;</span>Llama</td>
+                            <td><span class="heart">&hearts;</span>Woodlands</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+            </div>
+
+            <div class="Package">
+                <div class="PackageBanner">
+                    Combo
+                </div>
+                <div class="PckgeContent">
+                    <div>Option 1</div>
+                    <div>Buy any stamp and only pay R50 for a set of stickers</div>
+                    <div>Option 2</div>
+                    <div>Buy any 2 stamps and receive a set of stickers for FREE!</div>
+
+                </div>
+
+                <div class="OrderNowDiv">
+                    <a class="OrderNowLink"
+                        href="mailto:hartlemoen@gmail.com?subject=Online Order Teachers Sticker&body=Hi there, I would like to order Teachers Stickers - Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>email-outline </title>
+                                <path
+                                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+
+                    <a class="OrderNowLink"
+                        href="https://wa.me/27795160816?text=Hi there, I would like to order Teachers Stickers - Combo.">
+                        <div class="LinkSVG">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                                <title>whatsapp</title>
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                            </svg>
+                        </div>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="PckgeImage">
+                    <img src="Images/TeacherCombo.png" />
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    </hr>
+
+    <div class="OrderSection" id="#Order">
+        <div class="Shoptitle">
+            Order
+        </div>
+
+
+        <a class="OrderLink"
+            href="mailto:hartlemoen@gmail.com?subject=Online Order%20Order&body=Hi there, I would like to order something please.">
+            <div class="LinkSVG">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                    <title>email-outline </title>
+                    <path
+                        d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                </svg>
+            </div>
+            Order via Email <div class="contact">Hartlemoen@gmail.com</div>
+        </a>
+
+        <a class="OrderLink" href="https://wa.me/27795160816?text=Hi there, I would like to order something please.">
+            <div class="LinkSVG">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9E3500">
+                    <title>whatsapp</title>
+                    <path
+                        d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                </svg>
+            </div>
+            Order via WhatsApp <div class="contact">+27795160816</div>
+        </a>
+
+
+    </div>
+
+
+
+    <div class="branch" style=" left: 0px; top:30%; transform: rotate(-45deg);">
+        <div class="Stem">
+
+        </div>
+
+        <div class="LeafConInverse">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+
+        <div class="LeafCon">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="branch" style=" right: 0px; top:70%;margin-right:5px; transform:  rotate(205deg);">
+        <div class="Stem">
+
+        </div>
+
+        <div class="LeafConInverse">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+
+        <div class="LeafCon">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="branch" style=" right: 70%; bottom: 11px; transform: rotate(0deg);">
+        <div class="Stem">
+
+        </div>
+
+        <div class="LeafConInverse">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+
+        <div class="LeafCon">
+            <div class="LeafV1">
+
+            </div>
+            <div class="LeafV2">
+
+            </div>
+            <div class="LeafV3">
+
+            </div>
+            <div class="LeafV4">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

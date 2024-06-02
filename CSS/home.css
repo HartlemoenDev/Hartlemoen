@@ -1,0 +1,1103 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('../adeline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RegFont';
+    src: url('../warung.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'RegFont';
+}
+html{
+    overflow-x: hidden; 
+}
+
+body {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    overflow-x: hidden; 
+    width: 100vw;
+    background: linear-gradient(90deg, #D7A698 0%, #ffffff 2%,  #ffffff 50%,  #ffffff 98%, #FFDBDB  100%);
+
+padding-top: 80px;
+}
+body::-webkit-scrollbar {
+    width: 10px; 
+ 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #FFDBDB;
+    
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D7A698;;
+   
+    border-radius: 5px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #D7A698; 
+
+}
+
+
+.NavBar {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(60deg, #D7A698 40%, #FFDBDB 60%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+   padding: 10px;
+   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+ position: fixed;
+ top: 0px;
+z-index: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.ServiceCon{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+.ServiceCon a{
+    color:white;
+    font-family: 'RegFont';
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+padding-left: 10px;
+transition: color 0.3s;
+transition: background-color 0.3s;
+border:1px solid #ff878b5b;;
+background-color: #ff878b;;
+}
+.ServiceCon a:hover{
+    background-color: unset;
+  
+    color:#9e3500;
+}
+
+@media screen and (max-width: 1080px) {
+    .ServiceCon{
+        flex-direction: column;
+    }
+
+    .ServiceCon a{
+min-width: 90px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.LogoCOn{
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #89533E;
+    background-color: white;
+    border-radius: 25px;
+    height: 70px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+
+    padding-right: 20px;
+}
+
+
+.LogoCOn > img{
+    border-radius: 25px;
+    height: 65px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.LogoTitle{
+    color:#9E3500;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'TitleFont';
+}
+
+.SocialsCon{
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #FF878B;
+display: flex;
+justify-content: space-between;
+gap:10px;
+height: 70px;
+background-color: white;
+align-items: center;
+border-radius: 25px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+svg:hover{
+    fill:#FF878B;
+}
+
+.SocialIcon{
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+
+
+
+.SearchCon{
+    
+     margin-right: auto;
+     margin-left: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 5px;
+}
+.SearchCon > input{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 18px;
+    font-family: 'RegFont';
+    color:#9e3500;
+}
+
+.SearchCon button{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+   
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding:10px;;
+    font-size: 24px;
+    height: 40px;
+    outline: none;
+  
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+}
+
+.SearchCon button:hover{
+    background-color:#FF878B;
+    border:1px solid #FF878B;
+}
+
+
+
+.ShopLayout{
+    border:none;
+width: 95%;
+border-radius: 7px;
+background-color:#D7A698;
+    height: 550px;
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+.ShopLayoutAlt{
+    border:none;
+    width: 95%;
+    border-radius: 7px;
+    background-color:white;
+        height: 550px;
+      margin-right: auto;
+      margin-left: auto;
+}
+
+.MobileSidebar{
+    display: none;
+    position: fixed;
+    height: 300px;
+    right: 0px;
+    width: 130px;
+    flex-direction: column;
+    background-color: #FFDBDB;
+ 
+    border-radius: 10px;
+    
+    align-items: center;
+    padding-right:15px;
+    padding-left: 25px;
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    
+    border:1px solid #9E3500;
+    top:5px;
+    right: -240px;
+
+    transition: right 0.5s;
+}
+.MobileSocialIcon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    padding:5px;
+    }
+    .MobileSocials{
+        margin-top: auto;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.MobileBurgerMenu{
+     font-size: 40px;
+     margin-right: 10px;
+color:#89533E;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 7px;
+padding:5px;
+   }
+
+.MobileBurgerMenuClose{
+    font-size: 40px;
+    margin-right: -10px;
+    margin-top: 5px;
+color:#ff878b;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 7px;
+padding:5px;
+align-self: flex-end;
+}
+.MobileBtn{
+    display:  none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+align-items: center;
+justify-content: center;
+}
+.MobileServiceCon{
+    margin-top: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    flex-direction: column;
+}
+.MobileServiceCon a{
+   
+    font-family: 'RegFont';
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:5px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+padding-left: 10px;
+transition: color 0.3s;
+transition: background-color 0.3s;
+border:1px solid #ff878b5b;;
+min-width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ff878b;;
+    color:white;
+}
+.MobileServiceCon a:hover{
+    background-color: #ff878b;;
+    color:white;
+}
+
+.MobileBurgerMenu{
+    display: none;
+}
+@media screen and (max-width: 950px) {
+    .ServiceCon{
+       display: none;
+    }
+
+  
+}
+@media screen and (max-width: 810px) {
+   .SocialsCon{
+    display: none;
+   }
+.SearchCon{
+    margin: unset;
+
+    margin-right: 10px;
+}
+  
+}
+
+@media screen and (max-width: 650px) {
+   .SearchCon{
+    display: none;
+   }
+   .MobileSidebar{
+    display: flex;
+}
+
+   .MobileBurgerMenu{
+    display: flex;
+   }
+   .MobileBtn{
+    display:  flex;
+}
+ }
+
+ @media screen and (max-width: 500px) {
+   
+.LogoCOn{
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #89533E;
+    background-color: white;
+    border-radius: 25px;
+    height: 70px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.LogoCOn > img{
+    border-radius: 25px;
+    height: 55px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.LogoTitle{
+    color:#9E3500;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'TitleFont';
+}
+
+.MobileBtn{
+   
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 30px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  
+    font-size: 14px;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+align-items: center;
+justify-content: center;
+}
+
+  }
+
+  @media screen and (max-width: 380px) {
+   
+    .MobileBtn{
+  display: none;
+    }
+  }
+/* font-family: 'Freestyle Script';
+font-family: 'Maiandra GD'; */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.BrowseGallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+   
+    overflow-x: auto; /* Use 'auto' instead of 'scroll' */
+    
+    user-select: none;
+    margin-top: -40px;
+  
+    padding-bottom: 0px;
+
+
+    border-bottom:2px solid #9e350050;
+}
+.BrowseGallery::-webkit-scrollbar {
+    width: 10px; 
+ 
+}
+
+.BrowseGallery::-webkit-scrollbar-track {
+    background-color: #FFDBDB;
+    
+
+}
+
+.BrowseGallery::-webkit-scrollbar-thumb {
+    background-color: #D7A698;;
+   
+    border-radius: 5px; 
+}
+
+.BrowseGallery::-webkit-scrollbar-thumb:hover {
+    background-color: #D7A698; 
+
+}
+
+
+
+.GalleryItem{
+    width: 245px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: white;
+min-width: 245px;
+margin-left: 25px;
+margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #9e350050;
+    font-size: 32px;
+    color:#9e3500;;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.GalleryItem:hover{
+    background-color: #FFDBDB;
+}
+
+
+.LogoTitle{
+
+    font-family: 'TitleFont';
+
+}
+
+.AboutUsSection{
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   margin-left: 10%;
+margin-right: 10%;
+   color:#9e3500;;
+   width: 80%;
+ 
+   padding-bottom: 15px;
+
+
+}
+
+.StickersSection{
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   margin-left: 10%;
+margin-right: 10%;
+   color:#9e3500;;
+   width: 80%;
+   padding-bottom: 15px;
+   height: fit-content;
+   min-height: 400px;
+   align-items: center;
+
+}
+
+.Shoptitle{
+    font-family: 'TitleFont';
+    width: fit-content;
+    font-size: 72px;
+
+display: flex;
+justify-content: center;
+    margin-top: 50px;
+border-bottom: 1px solid #9e350050;
+
+}
+
+.ShopCon{
+    margin-top: 50px;
+width: 100%;
+height: fit-content;
+padding: 10px;
+display: flex;
+
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+
+justify-content: center;
+gap: 100px;
+}
+
+.Package{
+
+  height: fit-content;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:15px;
+  max-width: 400px;
+
+}
+
+.PackageBanner{
+background-color: #FFDBDB;
+width: fit-content;
+height: fit-content;
+padding:10px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+
+font-family: 'TitleFont';
+border-radius: 17px;
+color:black
+}
+.PckgeContent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+font-size: 22px;
+color:black;
+font-family: 'RegFont';
+position: relative;
+min-height: 150px;
+}
+
+.Price{
+position: absolute;
+left: -25px;
+transform: translateX(-100%);
+
+font-size: 42px;
+
+font-family: 'TitleFont';
+}
+
+.PckgeImage{
+    height: fit-content;
+    max-height: 300px;
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+
+.PckgeImage img{
+    object-fit: contain;
+   max-width: 100%;
+   max-height: 300px;
+   height: fit-content;
+  width: fit-content;
+}
+
+p{
+    font-family: 'RegFont';
+}
+
+hr{
+    width: 100%;
+    border-color: #9e350050;
+}
+.WelcomeCon{
+
+    border-bottom:2px solid #9e350050;
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+min-height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.WelcomeMessage{
+
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.WeclomeTitle{
+color:#9e3500;
+
+font-family: 'TitleFont';
+font-size: 120px;
+}
+
+.WelcomeSubTitle{
+color:#FF878B;
+font-size: 50px;
+font-family: 'TitleFont';
+}
+
+@media screen and (max-width: 1360px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 100px;
+        }
+        
+        .WelcomeSubTitle{
+    
+        font-size: 30px;
+    
+        }
+  
+}
+@media screen and (max-width: 1010px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 80px; 
+        }
+        
+        .WelcomeSubTitle{
+    
+        font-size: 22px;
+    
+        }
+        .AboutUsSection{
+            display: flex;
+            flex-direction: column;
+           gap: 15px;
+           margin-left: 15%;
+        margin-right: 15%;
+           color:#9e3500;;
+        }
+  
+}
+@media screen and (max-width: 700px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 60px;
+        }
+        .Shoptitle{
+            font-size: 40px;
+        }
+       
+        .WelcomeSubTitle{
+    
+            font-size: 20px;
+        
+            }
+  
+}
+@media screen and (max-width: 600px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 30px;
+        }
+        
+       
+        .WelcomeSubTitle{
+    
+            font-size: 20px;
+        
+            }
+  .WelcomeCon{
+    min-height: 150px;
+  }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.LeafCon{
+    position: absolute;
+    top:50%;
+    
+}
+.LeafConInverse{
+    position: absolute;
+    top:50%;
+   
+   
+    transform: scaleY(-1)  translateY(-35px);
+
+}
+
+.LeafV1 {
+    position: absolute;
+    margin-left: 0px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 50px;
+    height: 14px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: auto;
+    
+}
+
+.LeafV2 {
+    position: absolute;
+    margin-left: 70px;
+    transform: translate(-50%, -50%) rotate(-35deg); /* Center the leaf and rotate it */
+    width: 25px;
+
+    height: 7px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 6px;
+    
+}
+
+.LeafV3 {
+    position: absolute;
+    margin-left: 27px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 40px;
+    height: 12px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 2px;
+}
+
+
+.LeafV4 {
+    position: absolute;
+    margin-left: 51px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 33px;
+    height: 11px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 3px;
+}
+
+.branch{
+    position: fixed;
+   
+    z-index: 100;
+}
+.Stem{
+    position: absolute;
+   margin-top: 15px;
+ margin-left: -34px;
+    width: 108px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+   
+}
+
+@media screen and (max-width: 500px) {
+   
+    .branch{
+        scale: 0.75;
+       
+    }
+    
+      }
+
+
+.OrderSection{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+      .OrderLink{
+        position: relative;
+        display: flex;
+      
+        text-decoration: none !important;
+        color:#9e3500;
+        background-color: #FFDBDB;
+        border-radius: 25px;
+        padding:8px;
+        border:1px solid #FFDBDB;
+gap:5px;
+
+min-width: 200px;
+width: fit-content;
+
+      }
+
+      .Shoptitle{
+        color:#9e3500;
+      }
+
+      .OrderLink:hover{
+        color:#FF878B;
+        background-color: white;
+        border:1px solid #FF878B;
+      }
+
+      .OrderLink:hover svg{
+        fill:#FF878B;
+      }
+
+      .LinkSVG{
+        height: 45px;
+        width: 45px;
+        display: flex;
+        align-items: center;
+      }
+
+      .OrderNowLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none !important;
+        color:#9e3500;
+        background-color: #FFDBDB;
+        border-radius: 25px;
+        padding:8px;
+        border:1px solid #FFDBDB;
+gap:5px;
+width: fit-content;
+white-space: nowrap;
+      }
+.contact{
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+   
+    .contact{
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .PckgeContent{
+        max-width: 200px;
+        min-height: 50px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .GalleryItem{
+        font-size: 21px;
+    }
+.PackageBanner{
+    font-size: 22px;
+}
+
+.Shoptitle{
+    font-size: 27px;
+}
+.ShopCon{
+    margin-top: 10px;
+    gap:50px;
+}
+.Price{
+    font-size: 30px;
+    left: -5px;
+}
+
+.OrderNowLink{
+    font-size: 14px;
+    height: 20px !important;
+}
+
+      }
+
+
+
+      .OrderNowLink    .LinkSVG{
+        height: 25px;
+        width: 25px;
+      }
+
+      .OrderNowLink:hover{
+        color:#FF878B;
+        background-color: white;
+        border:1px solid #FF878B;
+      }
+
+      .OrderNowLink:hover svg{
+        fill:#FF878B;
+      }
+
+
+      .OrderNowDiv{
+        display: flex;
+        gap:5px;
+        font-weight: bold;
+      }
+    
+
+      .LargeBibGallery{
+        display: flex;
+      }
+
+
+
+
+      .price-list {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        table-layout: fixed;
+       
+    }
+    .price-list td {
+        padding: 1px;
+   
+        font-size: 10px;
+        width: fit-content;
+    }
+    .heart {
+        color: purple;
+        margin-right: 5px;
+    }
+    .price {
+        color: purple;
+    }
+
+    .themes-list {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .themes-list td {
+        padding: 5px 10px;
+    }
+    .themes-list .heart {
+        color: pink;
+        margin-right: 5px;
+    }
